@@ -306,7 +306,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 88vh;
-  background-image: url('/assets/img/RPzy9N.png');
+  background-image: url('/assets/img/pngtree-casino-background-with-playing-card-dice-and-flying-chips-image_778586.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,6 +337,7 @@ a:hover {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
+  color: #FFD700;
 }
 
 #hero .p3 span {
@@ -348,10 +349,12 @@ a:hover {
 #hero .p4 {
   font-size: 20px;
   padding-top: 20px;
+  color: #FFD700;
+  font-weight: 600;
 }
 
 #hero .hero-img img {
-  width: 85%;
+  width: 90%;
   height: 100%;
 }
 
@@ -385,8 +388,8 @@ a:hover {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 45px;
-    line-height: 36px;
+    font-size: 40px;
+    line-height: 30px;
   }
 
   #hero .hero-img img {
@@ -395,20 +398,31 @@ a:hover {
 }
 
 @media (max-width: 575px) {
+  #hero{
+    background-image: url('/assets/img/pngtree-casino-game-card-and-dice-wallpaper-picture-image_1471940.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   #hero .hero-img img {
     width: 100%;
   }
 
   #hero .p4 {
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px;
   }
 
   #hero .p3 {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
+  
+#hero .p2{
+   font-size: 20px;
+   margin-bottom: 10px;
+}
 
 }
 
